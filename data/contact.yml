@@ -1,0 +1,24 @@
+############################# contact info ################
+contact:
+  enable : true
+  # office
+  office:
+    title : "Офис"
+    content : "По всем вопросам используйте контактные данные."
+    # other information comes from "config.toml"
+
+  # opennig hour
+  opennigHour:
+    title : "График работы"
+    dayTimeList:
+      - dayTime : "Понедельник: 9:00 – 18:00"
+      - dayTime : "Вторник: 9:00 – 18:00"
+      - dayTime : "Среда: 9:00 – 18:00"
+      - dayTime : "Четверг: 9:00 – 18:00"
+      - dayTime : "Пятница: 9:00 – 18:00"
+      - dayTime : "Суббота: выходной"
+      - dayTime : "Воскресенье: выходной"
+
+####################### google map ########################
+map:
+  enable: true

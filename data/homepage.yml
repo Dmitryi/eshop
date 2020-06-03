@@ -1,0 +1,129 @@
+############################ banner ##########################
+banner:
+  enable : true
+  title : "Лучшие из лучших от Apple"
+  content : "Почувствуй совершенство в своих руках."
+  image : "images/banner.png"
+  # button
+  button:
+    enable : true
+    label : "Все товары"
+    link : "products"
+  # demo video
+  video:
+    enable : true
+    videoURL : "https://www.youtube.com/embed/yyNtm0LZiKc"
+
+########################## About ##############################
+#about:
+#  enable : true
+#  title : "About Our Product"
+#  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+#          dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+#          clita kasd gubergren,"
+#  image : "images/about.png"
+#
+
+###################### Call to action ########################
+#cta:
+#  enable : true
+#  title : "Buy one Get One Free Taba Cream"
+#  content : "Available for limited time only. Grab one while you still can!"
+#  image : "images/cta.png"
+#  overlayImage : "images/cta-overlay.png"
+#  button:
+#    label : "All Products"
+#    link : "products"
+
+######################## raw material #######################
+#material:
+#  enable : true
+#  title : "Ingredients Of Our Products"
+#  subtitle : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+#          dol."
+#  materialItem:
+#    # material item loop
+#    - title : "Matcha Seeds"
+#      image : "images/material/material-1.png"
+#      content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
+#      
+#    # material item loop
+#    - title : "Aloe Vera"
+#      image : "images/material/material-2.png"
+#      content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
+#      
+#    # material item loop
+#    - title : "Turmeric"
+#      image : "images/material/material-3.png"
+#      content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
+#      
+#    # material item loop
+#    - title : "Tulshi leaf"
+#      image : "images/material/material-4.png"
+#      content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
+#
+########################### Advantage #########################
+#advantage:
+#  enable : true
+#  title : "Advantages Of Using <br> Our Product"
+#  subtitle : "Lorem ipsum dolor sit amet, da decal consetetur<br> sadipscing elitr, sed diam nonumya eirmod"
+#  image : "images/advantage.png"
+#  advantageList:
+#    # advantage list loop
+#    - listItem : "Extremely lightweight"
+#    - listItem : "Excellent breathability"
+#    - listItem : "Can increase Cell activation"
+#    - listItem : "Glowing Skin In 7 Days"
+#    - listItem : "Increasing Glow Of Face"
+#    - listItem : "More Beautiful Face Skin"
+#
+
+######################## Promo Video ##########################
+#video:
+#  enable : true
+#  title : "How To Use This Product?"
+#  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+#          dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et."
+#  videoThumb : "images/video-thumb.jpg"
+#  videoURL : "https://www.youtube.com/embed/wf4F2-9UXUo"
+#
+
+######################## Products #############################
+products:
+  enable : true
+  title : "Apple"
+  # product item comes from "content/products"
+
+
+########################## Testimonial ########################
+testimonial:
+  enable : true
+  title : "Отзывы о нас и <br> продукции Apple"
+  testimonialItem:
+    # testimonial item loop
+    - name : "Андрей А."
+      image : "images/clients/andrey.jpg" # size 100px*100px
+      designation : "Дизайнер"
+      content : "Хороший звук, удобно носить. Качество сборки и материалов, все классно и четко работает. Удобство доставки. Спасибо."
+      rating : "five" # rating star, one to five
+      
+    # testimonial item loop
+    - name : "Марина О."
+      image : "images/clients/marina.jpg" # size 100px*100px
+      designation : "Руководитель отдела"
+      content : "Компактные, красивые, удобные, идеально подходят для повседневного использования. Доставка пришла вовремя."
+      rating : "four" # rating star, one to five
+      
+    # testimonial item loop
+    - name : "Денис К."
+      image : "images/clients/denis.jpg" # size 100px*100px
+      designation : "Программист"
+      content : "Выгодная цена. Большой радиус действия, удобство подключения, дизаин. С доставкой проблем не возникло."
+      rating : "five" # rating star, one to five
+      
+    # testimonial item loop
+    - name : "Ольга П."
+      image : "images/clients/olga.jpg" # size 100px*100px
+      designation : "Менеджер"
+      content : "AirPods отличается от других наушников как функционалом так и звуком, пользоваться ими сплошное удовольствие."
+      rating : "four" # rating star, one to five
